@@ -1,0 +1,20 @@
+
+Clone this repository at &lt;script src=&quot;https://gist.github.com/mustafabaki/4dcb3360ae19681380653600af7dec58.js&quot;&gt;&lt;/script&gt;
+<script src="https://gist.github.com/mustafabaki/4dcb3360ae19681380653600af7dec58.js"></script>
+Docker file for SpringBoot deployment on Render
+Dockerfile
+#
+# Build stage
+#
+FROM maven:3.8.3-openjdk-17 AS build
+COPY . .
+RUN mvn clean install
+
+#
+# Package stage
+#
+FROM eclipse-temurin:17-jdk
+COPY --from=build /target/your-build.jar demo.jar
+# ENV PORT=8080
+EXPOSE 8080
+ENTRYPOINT ["java","-jar","demo.jar"]

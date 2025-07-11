@@ -1,0 +1,130 @@
+/* Base styles */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0d1b2a; /* Dark Blue background */
+  color: #e0e1dd;            /* Light text */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Container box */
+.MuiContainer-root {
+  background-color: #1b263b;
+  border-radius: 12px;
+  padding: 32px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+}
+
+/* Typography (headers, labels) */
+.MuiTypography-root {
+  color: #e0e1dd;
+}
+
+/* Input fields */
+.MuiTextField-root .MuiOutlinedInput-root {
+  background-color: #415a77;
+  color: #ffffff;
+  border-radius: 6px;
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border-color: #778da9;
+}
+
+.MuiInputLabel-root {
+  color: #adb5bd !important;
+}
+
+/* Select dropdown */
+.MuiSelect-select {
+  background-color: #415a77;
+  color: #ffffff;
+}
+
+.MuiSelect-icon {
+  color: #ffffff;
+}
+
+/* Form control border */
+.MuiFormControl-root .MuiOutlinedInput-root {
+  border-color: #778da9;
+}
+
+/* Contained button */
+.MuiButton-contained {
+  background-color: #1d3557;
+  color: #ffffff;
+}
+
+.MuiButton-contained:hover {
+  background-color: #274c77;
+}
+
+/* Outlined button (e.g. Copy to Clipboard) */
+.MuiButton-outlined {
+  color: #ffffff;
+  border-color: #8d99ae;
+}
+
+.MuiButton-outlined:hover {
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+/* Circular progress */
+.MuiCircularProgress-root {
+  color: #ffffff;
+}
+
+/* Error text */
+.error-message {
+  color: #ff6b6b;
+  margin-top: 16px;
+}
+
+/* Footer styles */
+#Footer {
+  background-color: #1b263b;
+  color: #e0e1dd;
+  padding: 2rem 1rem;
+  margin-top: 2rem;
+  text-align: center;
+  border-top: 1px solid #415a77;
+}
+
+#Footer h1 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+#Footer h3 {
+  font-weight: 400;
+  color: #cbd5e1;
+  margin-bottom: 1rem;
+}
+
+#Footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+#Footer ul li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #e0e1dd;
+}
+
+#Footer ul li a {
+  color: #84a9ff;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+#Footer ul li a:hover {
+  text-decoration: underline;
+}

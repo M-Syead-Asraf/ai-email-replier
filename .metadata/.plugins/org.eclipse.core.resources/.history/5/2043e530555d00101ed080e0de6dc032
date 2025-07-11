@@ -1,0 +1,4 @@
+spring.application.name=email-writer-sb
+
+gemini.api.url="AIzaSyAW8MRDJAZnmGJcAuj9_dGWHg2BoorGqSg"
+gemini.api.key="https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key="

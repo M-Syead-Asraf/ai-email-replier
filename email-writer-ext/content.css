@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #beb9b9;
+  color: #333;
+  width: 280px;
+  height: 180px;
+}
+
+.container {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.logo {
+  background: #928f8f;
+  padding: 5px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: 50px;
+}
+
+.envelope-icon {
+  width: 20px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 16px;
+  color: #d32f2f;
+}
+
+.content {
+  text-align: justify;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+footer {
+  margin-top: auto;
+  margin-left: 10px;
+  text-align: left;
+  font-size: 13px;
+}
