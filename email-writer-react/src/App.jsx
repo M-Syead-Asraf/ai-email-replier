@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import { Box, Button, CircularProgress, Container, FormControl, InputLabel, MenuItem, Select, TextField, Typography } from '@mui/material';
 import axios from 'axios';
+import "./App.css"
+import Footer from './components/Footer'
 
 function App() {
 
@@ -95,6 +97,7 @@ function App() {
         </Box>
       )}
     </Container>
+    <Footer/>
     </>
   )
 }
